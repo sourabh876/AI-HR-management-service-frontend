@@ -1,0 +1,9 @@
+/* Desktop — hidden */
+@media (min-width: 768px) {
+    .sidebar-close-btn { display: none !important; }
+}
+
+/* Mobile — visible */
+@media (max-width: 767px) {
+    .sidebar-close-btn { display: block !important; }
+}
