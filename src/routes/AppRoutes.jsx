@@ -13,7 +13,7 @@ import MyLeaves from "../pages/MyLeaves";
 import Notifications from "../pages/Notifications";
 import ManagerLeaves from "../pages/ManagerLeaves";
 import LeaveBalance from "../pages/LeaveBalance";
-import chatBot from "../pages/chatBot";
+import ChatBot from "../pages/ChatBot";
 import ProtectedRoute from "./ProtectedRoute";
 import ManagerRoute from "./ManagerRoutes";
 
@@ -86,7 +86,7 @@ function AppRoutes() {
                         path="/chatbot"
                         element={
                             <ProtectedRoute>
-                                <chatBot />
+                                <ChatBot />
                             </ProtectedRoute>
                         }
                     />
