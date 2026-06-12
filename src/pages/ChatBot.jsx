@@ -4,7 +4,7 @@ import {
 
 import api from "../api/axios";
 
-function chatBot() {
+function ChatBot() {
 
   const [question,
     setQuestion] =
@@ -148,4 +148,4 @@ function chatBot() {
 
 }
 
-export default chatBot;
+export default ChatBot;
