@@ -2,10 +2,9 @@ import {
   useState
 } from "react";
 
-import api
-from "../api/axios";
+import api from "../api/axios";
 
-function Chatbot() {
+function ChatBot() {
 
   const [question,
     setQuestion] =
@@ -149,4 +148,4 @@ function Chatbot() {
 
 }
 
-export default Chatbot;
+export default ChatBot;
