@@ -115,7 +115,7 @@ function MainLayout() {
                         </Link>
                     </li>
 
-                    {user?.role === "manager","admin" && (
+                    {user.role !== "employee" && (
                         <li style={{ marginBottom: "16px" }}>
                             <Link to="/manager-leaves" style={linkStyle("/manager-leaves")} onClick={handleLinkClick}>
                                 👔 Manager Requests
