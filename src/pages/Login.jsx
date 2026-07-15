@@ -362,6 +362,9 @@ function Login() {
                                         </>
                                     ) : "Login"}
                                 </button>
+                                <div class="text-center w-100 text-primary">
+                                    <h4>Developed by Sourabh Soni</h4>
+                                </div>
                             </form>
                         </>
                     )}
